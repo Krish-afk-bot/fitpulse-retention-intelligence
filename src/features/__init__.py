@@ -1,0 +1,53 @@
+"""Feature engineering: frequency, recency, duration, consistency, streaks."""
+
+from .streaks import (
+    StreakSummary,
+    daily_activity_index,
+    platform_streak_series,
+    run_lengths,
+    streak_features_for_groups,
+    streak_lengths_for_days,
+    streak_summary,
+)
+from .engineer import (
+    LIFECYCLE_CONFIG,
+    LIFECYCLE_STAGES,
+    SCORE_COMPONENTS,
+    SEGMENT_ORDER,
+    SYNTHETIC_FEATURE_COLUMNS,
+    ScoreComponent,
+    assign_segment,
+    build_activity_features,
+    build_member_features,
+    build_platform_activity,
+    build_real_member_features,
+    compute_component_scores,
+    lifecycle_stage,
+    score_reference_values,
+    segment_definition_frame,
+)
+
+__all__ = [
+    "StreakSummary",
+    "daily_activity_index",
+    "platform_streak_series",
+    "run_lengths",
+    "streak_features_for_groups",
+    "streak_lengths_for_days",
+    "streak_summary",
+    "LIFECYCLE_CONFIG",
+    "LIFECYCLE_STAGES",
+    "SCORE_COMPONENTS",
+    "SEGMENT_ORDER",
+    "SYNTHETIC_FEATURE_COLUMNS",
+    "ScoreComponent",
+    "assign_segment",
+    "build_activity_features",
+    "build_member_features",
+    "build_platform_activity",
+    "build_real_member_features",
+    "compute_component_scores",
+    "lifecycle_stage",
+    "score_reference_values",
+    "segment_definition_frame",
+]

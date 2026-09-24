@@ -1,11 +1,16 @@
-# --- Secrets ---
+# =============================================================================
+#  FitPulse — .gitignore
+# =============================================================================
+
+# --- Secrets -----------------------------------------------------------------
 .env
 *.env
 !.env.example
 
-# --- Python ---
+# --- Python ------------------------------------------------------------------
 __pycache__/
 *.py[cod]
+*.pyo
 *.egg-info/
 .eggs/
 build/
@@ -19,25 +24,38 @@ env/
 .coverage
 htmlcov/
 
-# --- Notebooks ---
-.ipynb_checkpoints/
-
-# --- FitPulse generated artifacts -----------------------------------------
-logs/*.log
-artifacts/*.json
-artifacts/*.csv
-artifacts/*.md
-artifacts/*.html
-data/processed/*.db
-data/interim/*
-data/processed/*
-!data/processed/.gitkeep
-!data/interim/.gitkeep
-
-# --- OS / editors ---
+# --- IDE / editor ------------------------------------------------------------
 .DS_Store
 Thumbs.db
 .idea/
 .vscode/*
 !.vscode/extensions.json
 *.swp
+*.swo
+
+# --- FreeBuff (Kiro preview runtime) ----------------------------------------
+.freebuff/
+
+# --- Jupyter -----------------------------------------------------------------
+.ipynb_checkpoints/
+notebooks/
+
+# --- FitPulse generated artefacts (pipeline outputs) ------------------------
+logs/*.log
+artifacts/*.json
+artifacts/*.csv
+artifacts/*.md
+artifacts/*.html
+data/processed/*.db
+data/processed/*.csv
+data/processed/*.parquet
+!data/processed/.gitkeep
+
+# --- Raw data zip archives (CSVs are the source of truth) -------------------
+data/raw/*.zip
+
+# --- Commit helper scripts (one-off, not part of the project) ---------------
+commits_*.ps1
+commits_*.sh
+push_commits_*.sh
+run_commits_*.bat

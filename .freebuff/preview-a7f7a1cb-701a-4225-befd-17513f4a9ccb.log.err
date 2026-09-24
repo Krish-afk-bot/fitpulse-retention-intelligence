@@ -1,0 +1,307 @@
+[02:37:38] INFO     fitpulse.analytics.retention: Retention: 74.00% retained (111/150 members)
+[02:37:38] INFO     fitpulse.analytics.segmentation: Segmentation computed for 4 segments
+[02:37:38] INFO     fitpulse.analytics.diagnostics: Anomaly detection produced 4 findings
+[02:37:39] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[02:37:48] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[02:38:53] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[02:39:13] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[02:39:31] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[02:39:44] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[02:40:08] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[02:40:39] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[02:41:55] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[02:42:32] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[02:42:40] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[02:42:51] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[02:43:10] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+2026-09-22 02:55:41.151 304 GET / (127.0.0.1) 0.47ms
+2026-09-22 02:55:41.703 304 GET /_stcore/host-config (127.0.0.1) 0.34ms
+2026-09-22 02:55:41.708 304 GET /_stcore/health (127.0.0.1) 0.58ms
+2026-09-22 02:55:41.712 101 GET /_stcore/stream (127.0.0.1) 0.34ms
+[02:55:41] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[02:56:10] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[02:56:19] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[02:56:30] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[02:56:45] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+2026-09-22 02:57:49.170 304 GET /retention (127.0.0.1) 0.46ms
+2026-09-22 02:57:49.540 404 GET /retention/_stcore/health (127.0.0.1) 0.62ms
+2026-09-22 02:57:49.543 404 GET /retention/_stcore/host-config (127.0.0.1) 0.57ms
+2026-09-22 02:57:49.646 304 GET /_stcore/health (127.0.0.1) 0.46ms
+2026-09-22 02:57:49.649 304 GET /_stcore/host-config (127.0.0.1) 0.34ms
+2026-09-22 02:57:49.652 101 GET /_stcore/stream (127.0.0.1) 0.33ms
+[02:57:49] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+2026-09-22 02:58:55.511 304 GET / (127.0.0.1) 0.37ms
+2026-09-22 02:58:56.059 304 GET /_stcore/health (127.0.0.1) 0.38ms
+2026-09-22 02:58:56.065 304 GET /_stcore/host-config (127.0.0.1) 0.40ms
+2026-09-22 02:58:56.069 101 GET /_stcore/stream (127.0.0.1) 0.37ms
+[02:58:56] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+2026-09-22 02:59:38.603 304 GET /risk-alerts (127.0.0.1) 0.50ms
+2026-09-22 02:59:38.890 404 GET /risk-alerts/_stcore/health (127.0.0.1) 0.62ms
+2026-09-22 02:59:38.896 404 GET /risk-alerts/_stcore/host-config (127.0.0.1) 0.56ms
+2026-09-22 02:59:38.995 304 GET /_stcore/health (127.0.0.1) 0.34ms
+2026-09-22 02:59:38.997 304 GET /_stcore/host-config (127.0.0.1) 0.25ms
+2026-09-22 02:59:39.000 101 GET /_stcore/stream (127.0.0.1) 0.46ms
+[02:59:39] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+2026-09-22 03:00:58.903 304 GET / (127.0.0.1) 0.47ms
+2026-09-22 03:00:59.453 304 GET /_stcore/health (127.0.0.1) 0.47ms
+2026-09-22 03:00:59.460 304 GET /_stcore/host-config (127.0.0.1) 0.39ms
+2026-09-22 03:00:59.464 101 GET /_stcore/stream (127.0.0.1) 0.32ms
+[03:00:59] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+2026-09-22 03:02:12.370 304 GET /segments (127.0.0.1) 0.40ms
+2026-09-22 03:02:12.735 404 GET /segments/_stcore/health (127.0.0.1) 0.62ms
+2026-09-22 03:02:12.742 404 GET /segments/_stcore/host-config (127.0.0.1) 0.65ms
+2026-09-22 03:02:12.844 304 GET /_stcore/health (127.0.0.1) 0.56ms
+2026-09-22 03:02:12.846 304 GET /_stcore/host-config (127.0.0.1) 0.26ms
+2026-09-22 03:02:12.850 101 GET /_stcore/stream (127.0.0.1) 0.40ms
+[03:02:12] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[03:02:16] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+2026-09-22 03:02:42.451 304 GET /data-quality (127.0.0.1) 0.46ms
+2026-09-22 03:02:42.723 404 GET /data-quality/_stcore/health (127.0.0.1) 0.52ms
+2026-09-22 03:02:42.729 404 GET /data-quality/_stcore/host-config (127.0.0.1) 0.54ms
+2026-09-22 03:02:42.830 304 GET /_stcore/health (127.0.0.1) 0.33ms
+2026-09-22 03:02:42.833 304 GET /_stcore/host-config (127.0.0.1) 0.52ms
+2026-09-22 03:02:42.836 101 GET /_stcore/stream (127.0.0.1) 0.31ms
+[03:02:42] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+2026-09-22 03:03:11.887 304 GET /sql-validation (127.0.0.1) 0.40ms
+2026-09-22 03:03:12.166 404 GET /sql-validation/_stcore/health (127.0.0.1) 0.58ms
+2026-09-22 03:03:12.172 404 GET /sql-validation/_stcore/host-config (127.0.0.1) 0.62ms
+2026-09-22 03:03:12.271 304 GET /_stcore/health (127.0.0.1) 0.40ms
+2026-09-22 03:03:12.280 304 GET /_stcore/host-config (127.0.0.1) 0.33ms
+2026-09-22 03:03:12.284 101 GET /_stcore/stream (127.0.0.1) 0.37ms
+[03:03:12] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[03:03:12] INFO     fitpulse.sql_layer: SQLite connection opened: C:\Users\user\OneDrive\Desktop\sprint work\data\processed\fitpulse.db
+[03:03:12] INFO     fitpulse.sql_layer: SQLite connection opened: C:\Users\user\OneDrive\Desktop\sprint work\data\processed\fitpulse.db
+[03:03:12] INFO     fitpulse.sql_layer: SQLite connection opened: C:\Users\user\OneDrive\Desktop\sprint work\data\processed\fitpulse.db
+2026-09-22 03:03:42.031 304 GET /reports (127.0.0.1) 0.59ms
+2026-09-22 03:03:42.342 404 GET /reports/_stcore/health (127.0.0.1) 0.63ms
+2026-09-22 03:03:42.349 404 GET /reports/_stcore/host-config (127.0.0.1) 0.62ms
+2026-09-22 03:03:42.451 304 GET /_stcore/health (127.0.0.1) 0.44ms
+2026-09-22 03:03:42.453 304 GET /_stcore/host-config (127.0.0.1) 0.31ms
+2026-09-22 03:03:42.456 101 GET /_stcore/stream (127.0.0.1) 0.35ms
+[03:03:42] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+2026-09-22 03:04:12.849 304 GET /data-sources (127.0.0.1) 0.48ms
+2026-09-22 03:04:13.137 404 GET /data-sources/_stcore/health (127.0.0.1) 0.82ms
+2026-09-22 03:04:13.138 404 GET /data-sources/_stcore/host-config (127.0.0.1) 0.56ms
+2026-09-22 03:04:13.242 304 GET /_stcore/health (127.0.0.1) 0.34ms
+2026-09-22 03:04:13.263 304 GET /_stcore/host-config (127.0.0.1) 0.56ms
+2026-09-22 03:04:13.266 101 GET /_stcore/stream (127.0.0.1) 0.34ms
+[03:04:13] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+2026-09-22 03:05:01.635 200 GET / (127.0.0.1) 1.22ms
+2026-09-22 03:07:00.891 304 GET / (127.0.0.1) 0.48ms
+2026-09-22 03:07:01.467 304 GET /_stcore/host-config (127.0.0.1) 0.37ms
+2026-09-22 03:07:01.469 304 GET /_stcore/health (127.0.0.1) 0.64ms
+2026-09-22 03:07:01.475 101 GET /_stcore/stream (127.0.0.1) 0.36ms
+[03:07:01] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+2026-09-22 03:08:51.589 304 GET /retention (127.0.0.1) 0.47ms
+2026-09-22 03:08:52.004 404 GET /retention/_stcore/health (127.0.0.1) 0.71ms
+2026-09-22 03:08:52.010 404 GET /retention/_stcore/host-config (127.0.0.1) 0.48ms
+2026-09-22 03:08:52.593 304 GET /_stcore/health (127.0.0.1) 0.45ms
+2026-09-22 03:08:52.599 304 GET /_stcore/host-config (127.0.0.1) 0.40ms
+2026-09-22 03:08:52.605 101 GET /_stcore/stream (127.0.0.1) 0.36ms
+[03:08:52] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[03:10:15] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[03:10:16] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+2026-09-22 03:10:26.417 304 GET / (127.0.0.1) 0.39ms
+2026-09-22 03:10:26.971 304 GET /_stcore/health (127.0.0.1) 0.34ms
+2026-09-22 03:10:26.977 304 GET /_stcore/host-config (127.0.0.1) 0.31ms
+2026-09-22 03:10:26.981 101 GET /_stcore/stream (127.0.0.1) 0.34ms
+[03:10:27] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+2026-09-22 03:12:17.221 304 GET / (127.0.0.1) 0.45ms
+2026-09-22 03:12:17.779 304 GET /_stcore/health (127.0.0.1) 0.41ms
+2026-09-22 03:12:17.793 304 GET /_stcore/host-config (127.0.0.1) 0.35ms
+2026-09-22 03:12:17.796 101 GET /_stcore/stream (127.0.0.1) 0.34ms
+[03:12:17] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+2026-09-22 03:13:54.663 200 GET / (127.0.0.1) 1.38ms
+2026-09-22 03:14:19.780 304 GET /engagement (127.0.0.1) 0.38ms
+2026-09-22 03:14:20.160 404 GET /engagement/_stcore/health (127.0.0.1) 0.58ms
+2026-09-22 03:14:20.166 404 GET /engagement/_stcore/host-config (127.0.0.1) 0.55ms
+2026-09-22 03:14:20.270 304 GET /_stcore/health (127.0.0.1) 0.58ms
+2026-09-22 03:14:20.290 304 GET /_stcore/host-config (127.0.0.1) 0.41ms
+2026-09-22 03:14:20.295 101 GET /_stcore/stream (127.0.0.1) 0.34ms
+[03:14:20] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+2026-09-22 03:16:33.565 304 GET /segments (127.0.0.1) 0.54ms
+2026-09-22 03:16:34.034 404 GET /segments/_stcore/health (127.0.0.1) 0.64ms
+2026-09-22 03:16:34.036 404 GET /segments/_stcore/host-config (127.0.0.1) 0.60ms
+2026-09-22 03:16:34.620 304 GET /_stcore/health (127.0.0.1) 0.56ms
+2026-09-22 03:16:34.626 304 GET /_stcore/host-config (127.0.0.1) 0.28ms
+2026-09-22 03:16:34.630 101 GET /_stcore/stream (127.0.0.1) 0.31ms
+[03:16:34] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+2026-09-22 12:10:14.970 404 GET /segments/_stcore/host-config (127.0.0.1) 0.78ms
+2026-09-22 12:10:14.971 404 GET /segments/_stcore/health (127.0.0.1) 0.67ms
+2026-09-22 12:10:15.389 200 GET /_stcore/health (127.0.0.1) 0.50ms
+2026-09-22 12:10:15.390 200 GET /_stcore/host-config (127.0.0.1) 0.32ms
+2026-09-22 12:10:15.448 101 GET /_stcore/stream (127.0.0.1) 0.45ms
+[12:12:34] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:12:36] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:12:37] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:12:38] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:12:39] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:14:24] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:14:37] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:14:38] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:14:40] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:14:41] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:14:43] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:14:44] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:14:48] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:14:52] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:20:23] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:21:55] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:22:17] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:22:26] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:22:35] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:23:29] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:23:36] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:23:41] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:23:52] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:24:01] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:24:07] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:24:21] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:24:23] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:24:26] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[12:24:45] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[15:15:14] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[15:15:19] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[15:15:22] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[15:15:23] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[15:15:33] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[15:15:39] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[15:15:42] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[15:15:45] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[15:16:07] INFO     fitpulse.pipeline: ---- INGESTION START ----
+[15:16:07] INFO     fitpulse.ingestion: Loaded daily_gym_attendance_workout_data.csv | rows=2,600 cols=10 | encoding=utf-8-sig delimiter=','
+[15:16:08] INFO     fitpulse.mapping: Compatibility Activity / attendance | score=100.0 | status=PASS | capabilities=['activity_analysis', 'time_series', 'engagement_analysis', 'funnel_analysis', 'workout_type_analysis', 'duration_analysis']
+[15:16:08] INFO     fitpulse.ingestion: Loaded gym_members_dataset.csv | rows=150 cols=15 | encoding=utf-8-sig delimiter=','
+[15:16:08] INFO     fitpulse.mapping: Compatibility Membership / member | score=100.0 | status=PASS | capabilities=['retention_analysis', 'churn_analysis', 'segmentation', 'engagement_analysis', 'member_level_analysis', 'streak_analysis', 'workout_type_analysis', 'duration_analysis']
+[15:16:08] INFO     fitpulse.pipeline: INGESTION      PASS       0.76s  2,750 rows
+[15:16:08] INFO     fitpulse.pipeline: ---- PROFILING START ----
+2026-09-22 15:16:08.674 200 GET /static/js/index.CjXWwH-y.js (127.0.0.1) 82.16ms
+[15:16:08] INFO     fitpulse.pipeline: ---- INGESTION START ----
+[15:16:08] INFO     fitpulse.ingestion: Loaded daily_gym_attendance_workout_data.csv | rows=2,600 cols=10 | encoding=utf-8-sig delimiter=','
+[15:16:09] INFO     fitpulse.pipeline: PROFILING      PASS       0.37s  25 rows
+[15:16:09] INFO     fitpulse.pipeline: ---- VALIDATION START ----
+[15:16:09] INFO     fitpulse.mapping: Compatibility Activity / attendance | score=100.0 | status=PASS | capabilities=['activity_analysis', 'time_series', 'engagement_analysis', 'funnel_analysis', 'workout_type_analysis', 'duration_analysis']
+[15:16:09] INFO     fitpulse.ingestion: Loaded gym_members_dataset.csv | rows=150 cols=15 | encoding=utf-8-sig delimiter=','
+[15:16:09] INFO     fitpulse.validation: activity validation -> WARNING
+[15:16:09] INFO     fitpulse.validation: membership validation -> WARNING
+[15:16:09] INFO     fitpulse.pipeline: VALIDATION     PASS       0.41s  74 rows
+[15:16:09] INFO     fitpulse.mapping: Compatibility Membership / member | score=100.0 | status=PASS | capabilities=['retention_analysis', 'churn_analysis', 'segmentation', 'engagement_analysis', 'member_level_analysis', 'streak_analysis', 'workout_type_analysis', 'duration_analysis']
+[15:16:09] INFO     fitpulse.pipeline: ---- CLEANING START ----
+[15:16:09] INFO     fitpulse.pipeline: INGESTION      PASS       0.71s  2,750 rows
+[15:16:09] INFO     fitpulse.pipeline: ---- PROFILING START ----
+[15:16:09] INFO     fitpulse.pipeline: ---- INGESTION START ----
+[15:16:09] INFO     fitpulse.ingestion: Loaded daily_gym_attendance_workout_data.csv | rows=2,600 cols=10 | encoding=utf-8-sig delimiter=','
+[15:16:10] INFO     fitpulse.mapping: Compatibility Activity / attendance | score=100.0 | status=PASS | capabilities=['activity_analysis', 'time_series', 'engagement_analysis', 'funnel_analysis', 'workout_type_analysis', 'duration_analysis']
+[15:16:10] INFO     fitpulse.cleaning: Activity cleaned: 2,600 rows
+[15:16:10] INFO     fitpulse.pipeline: PROFILING      PASS       0.85s  25 rows
+[15:16:10] INFO     fitpulse.pipeline: ---- VALIDATION START ----
+[15:16:10] INFO     fitpulse.ingestion: Loaded gym_members_dataset.csv | rows=150 cols=15 | encoding=utf-8-sig delimiter=','
+[15:16:10] INFO     fitpulse.cleaning: Membership cleaned: 150 members | churn=39 | observation_date=2025-07-10
+[15:16:10] INFO     fitpulse.pipeline: CLEANING       PASS       0.97s  2,750 rows
+[15:16:10] INFO     fitpulse.pipeline: ---- VALIDATION (CANONICAL) START ----
+[15:16:10] INFO     fitpulse.mapping: Compatibility Membership / member | score=100.0 | status=PASS | capabilities=['retention_analysis', 'churn_analysis', 'segmentation', 'engagement_analysis', 'member_level_analysis', 'streak_analysis', 'workout_type_analysis', 'duration_analysis']
+[15:16:10] INFO     fitpulse.pipeline: INGESTION      PASS       1.08s  2,750 rows
+[15:16:10] INFO     fitpulse.pipeline: ---- PROFILING START ----
+[15:16:10] INFO     fitpulse.validation: activity validation -> WARNING
+[15:16:10] INFO     fitpulse.validation: membership validation -> WARNING
+[15:16:10] INFO     fitpulse.pipeline: VALIDATION     PASS       0.47s  74 rows
+[15:16:10] INFO     fitpulse.pipeline: ---- CLEANING START ----
+[15:16:10] INFO     fitpulse.pipeline: VALIDATION (CANONICAL) PASS       0.53s  64 rows
+[15:16:10] INFO     fitpulse.pipeline: ---- INTEGRATION START ----
+[15:16:11] INFO     fitpulse.integration: Key analysis: verdict=COINCIDENTAL_OVERLAP overlap=150 naive_join_rows=150
+[15:16:11] INFO     fitpulse.pipeline: PROFILING      PASS       1.04s  25 rows
+[15:16:11] INFO     fitpulse.pipeline: ---- VALIDATION START ----
+[15:16:11] INFO     fitpulse.cleaning: Activity cleaned: 2,600 rows
+[15:16:11] INFO     fitpulse.cleaning: Membership cleaned: 150 members | churn=39 | observation_date=2025-07-10
+[15:16:11] INFO     fitpulse.pipeline: CLEANING       PASS       1.15s  2,750 rows
+[15:16:11] INFO     fitpulse.pipeline: ---- VALIDATION (CANONICAL) START ----
+[15:16:11] INFO     fitpulse.integration.synthetic: Synthetic bridge: 13,799 events across 150 members (seed=42)
+[15:16:12] INFO     fitpulse.validation: activity validation -> WARNING
+[15:16:12] INFO     fitpulse.validation: membership validation -> WARNING
+[15:16:12] INFO     fitpulse.pipeline: VALIDATION     PASS       0.34s  74 rows
+[15:16:12] INFO     fitpulse.integration: Integration complete | real events=2,600 | synthetic events=13,799 | members=150 | status=WARNING
+[15:16:12] INFO     fitpulse.pipeline: ---- CLEANING START ----
+[15:16:12] WARNING  fitpulse.pipeline: INTEGRATION WARNING Sources share no legitimate member key; the documented synthetic integration layer is used and clearly labelled.
+[15:16:12] INFO     fitpulse.pipeline: INTEGRATION    WARNING    1.12s  13,799 rows  | Sources share no legitimate member key; the documented synthetic integration layer is used and clearly labelled.
+[15:16:12] INFO     fitpulse.pipeline: ---- FEATURES START ----
+[15:16:12] INFO     fitpulse.pipeline: VALIDATION (CANONICAL) PASS       0.26s  64 rows
+[15:16:12] INFO     fitpulse.pipeline: ---- INTEGRATION START ----
+[15:16:12] INFO     fitpulse.integration: Key analysis: verdict=COINCIDENTAL_OVERLAP overlap=150 naive_join_rows=150
+[15:16:13] INFO     fitpulse.cleaning: Activity cleaned: 2,600 rows
+[15:16:13] INFO     fitpulse.integration.synthetic: Synthetic bridge: 13,799 events across 150 members (seed=42)
+[15:16:13] INFO     fitpulse.cleaning: Membership cleaned: 150 members | churn=39 | observation_date=2025-07-10
+[15:16:13] INFO     fitpulse.pipeline: CLEANING       PASS       1.83s  2,750 rows
+[15:16:13] INFO     fitpulse.pipeline: ---- VALIDATION (CANONICAL) START ----
+[15:16:13] INFO     fitpulse.integration: Integration complete | real events=2,600 | synthetic events=13,799 | members=150 | status=WARNING
+[15:16:13] WARNING  fitpulse.pipeline: INTEGRATION WARNING Sources share no legitimate member key; the documented synthetic integration layer is used and clearly labelled.
+[15:16:13] INFO     fitpulse.pipeline: INTEGRATION    WARNING    1.57s  13,799 rows  | Sources share no legitimate member key; the documented synthetic integration layer is used and clearly labelled.
+[15:16:13] INFO     fitpulse.pipeline: ---- FEATURES START ----
+[15:16:14] INFO     fitpulse.pipeline: VALIDATION (CANONICAL) PASS       0.39s  64 rows
+[15:16:14] INFO     fitpulse.pipeline: ---- INTEGRATION START ----
+[15:16:14] INFO     fitpulse.integration: Key analysis: verdict=COINCIDENTAL_OVERLAP overlap=150 naive_join_rows=150
+[15:16:15] INFO     fitpulse.features: Member features built for 150 members
+[15:16:15] INFO     fitpulse.integration.synthetic: Synthetic bridge: 13,799 events across 150 members (seed=42)
+[15:16:15] INFO     fitpulse.integration: Integration complete | real events=2,600 | synthetic events=13,799 | members=150 | status=WARNING
+[15:16:15] WARNING  fitpulse.pipeline: INTEGRATION WARNING Sources share no legitimate member key; the documented synthetic integration layer is used and clearly labelled.
+[15:16:15] INFO     fitpulse.pipeline: INTEGRATION    WARNING    1.27s  13,799 rows  | Sources share no legitimate member key; the documented synthetic integration layer is used and clearly labelled.
+[15:16:15] INFO     fitpulse.pipeline: ---- FEATURES START ----
+[15:16:15] INFO     fitpulse.pipeline: FEATURES       PASS       3.54s  150 rows
+[15:16:15] INFO     fitpulse.pipeline: ---- ANALYTICS START ----
+[15:16:16] INFO     fitpulse.analytics.retention: Retention: 74.00% retained (111/150 members)
+[15:16:16] INFO     fitpulse.analytics.segmentation: Segmentation computed for 4 segments
+[15:16:16] INFO     fitpulse.features: Member features built for 150 members
+[15:16:16] INFO     fitpulse.pipeline: FEATURES       PASS       2.57s  150 rows
+[15:16:16] INFO     fitpulse.pipeline: ---- ANALYTICS START ----
+[15:16:16] INFO     fitpulse.analytics.retention: Retention: 74.00% retained (111/150 members)
+[15:16:16] INFO     fitpulse.analytics.segmentation: Segmentation computed for 4 segments
+[15:16:16] INFO     fitpulse.analytics.diagnostics: Anomaly detection produced 4 findings
+[15:16:17] INFO     fitpulse.pipeline: ANALYTICS      PASS       1.46s  2,750 rows
+[15:16:17] INFO     fitpulse.features: Member features built for 150 members
+[15:16:17] INFO     fitpulse.pipeline: ---- ALERTS START ----
+[15:16:17] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[15:16:17] WARNING  fitpulse.pipeline: ALERTS WARNING 2 high-severity alert(s) open
+[15:16:17] INFO     fitpulse.pipeline: ALERTS         WARNING    0.05s  4 rows  | 2 high-severity alert(s) open
+[15:16:17] INFO     fitpulse.pipeline: ---- VALIDATION-SQL START ----
+[15:16:17] INFO     fitpulse.pipeline: VALIDATION-SQL PASS       0.00s  0 rows
+[15:16:17] INFO     fitpulse.analytics.questions: Answered 9 analytical questions (9 with data)
+[15:16:17] INFO     fitpulse.pipeline: ---- REPORTING START ----
+[15:16:17] INFO     fitpulse.analytics.diagnostics: Anomaly detection produced 4 findings
+[15:16:17] INFO     fitpulse.pipeline: FEATURES       PASS       1.68s  150 rows
+[15:16:17] INFO     fitpulse.pipeline: ---- ANALYTICS START ----
+[15:16:17] INFO     fitpulse.analytics.retention: Retention: 74.00% retained (111/150 members)
+[15:16:17] INFO     fitpulse.analytics.segmentation: Segmentation computed for 4 segments
+[15:16:17] INFO     fitpulse.pipeline: ANALYTICS      PASS       0.91s  2,750 rows
+[15:16:17] INFO     fitpulse.pipeline: ---- ALERTS START ----
+[15:16:17] INFO     fitpulse.pipeline: REPORTING      PASS       0.30s  500 rows
+[15:16:17] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[15:16:17] INFO     fitpulse.pipeline: Pipeline finished | members=150 | alerts=4
+[15:16:17] WARNING  fitpulse.pipeline: ALERTS WARNING 2 high-severity alert(s) open
+[15:16:17] INFO     fitpulse.pipeline: ALERTS         WARNING    0.15s  4 rows  | 2 high-severity alert(s) open
+[15:16:17] INFO     fitpulse.pipeline: ---- VALIDATION-SQL START ----
+[15:16:17] INFO     fitpulse.pipeline: VALIDATION-SQL PASS       0.00s  0 rows
+[15:16:17] INFO     fitpulse.analytics.questions: Answered 9 analytical questions (9 with data)
+[15:16:17] INFO     fitpulse.pipeline: ---- REPORTING START ----
+[15:16:17] INFO     fitpulse.pipeline: REPORTING      PASS       0.02s  500 rows
+[15:16:17] INFO     fitpulse.pipeline: Pipeline finished | members=150 | alerts=4
+[15:16:17] INFO     fitpulse.analytics.diagnostics: Anomaly detection produced 4 findings
+[15:16:17] INFO     fitpulse.pipeline: ANALYTICS      PASS       0.56s  2,750 rows
+[15:16:17] INFO     fitpulse.pipeline: ---- ALERTS START ----
+[15:16:17] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[15:16:17] WARNING  fitpulse.pipeline: ALERTS WARNING 2 high-severity alert(s) open
+[15:16:17] INFO     fitpulse.pipeline: ALERTS         WARNING    0.02s  4 rows  | 2 high-severity alert(s) open
+[15:16:17] INFO     fitpulse.pipeline: ---- VALIDATION-SQL START ----
+[15:16:17] INFO     fitpulse.pipeline: VALIDATION-SQL PASS       0.00s  0 rows
+[15:16:17] INFO     fitpulse.analytics.questions: Answered 9 analytical questions (9 with data)
+[15:16:17] INFO     fitpulse.pipeline: ---- REPORTING START ----
+[15:16:17] INFO     fitpulse.pipeline: REPORTING      PASS       0.02s  500 rows
+[15:16:17] INFO     fitpulse.pipeline: Pipeline finished | members=150 | alerts=4
+[15:16:18] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[15:16:20] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[15:34:40] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[15:34:41] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+[15:34:44] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}
+2026-09-22 15:34:45.988 200 GET /static/js/index.D5naqx-J.js (127.0.0.1) 4.79ms
+2026-09-22 15:34:46.117 200 GET /media/95a4062e0d30cf96f34c917249dbccb579b55a324e6a2a94fd7d6093.md (127.0.0.1) 1.75ms
+2026-09-22 15:34:46.117 200 GET /media/ce96666a1d817cd2322473937305bd8f6e99b9f2b4f0dcc8960de375.csv (127.0.0.1) 2.32ms
+2026-09-22 15:34:46.119 200 GET /media/f6de805b9d707572c03796b676fa9e7c87460a823f239706ef0d3887.html (127.0.0.1) 1.25ms
+[15:34:52] INFO     fitpulse.alerts: Alert evaluation: 4 alert(s) — {'HIGH': 2, 'MEDIUM': 2}

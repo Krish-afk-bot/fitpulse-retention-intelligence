@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" role="img" aria-label="FitPulse">
+  <defs>
+    <linearGradient id="fpMark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1BAE70"/>
+      <stop offset="1" stop-color="#087A4A"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="36" height="36" rx="11" fill="url(#fpMark)"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 21h4l3.2-7.5 3.6 12 2.9-8 2.3 3.5h4"/>
+  </g>
+</svg>

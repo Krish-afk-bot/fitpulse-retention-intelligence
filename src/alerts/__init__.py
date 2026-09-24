@@ -1,0 +1,41 @@
+"""Alerts: threshold-driven operational risk detection."""
+
+from .engine import (
+    SEVERITY_HIGH,
+    SEVERITY_INFO,
+    SEVERITY_LOW,
+    SEVERITY_MEDIUM,
+    Alert,
+    alert_summary,
+    evaluate_activity_drop_alert,
+    evaluate_alerts,
+    evaluate_anomaly_alerts,
+    evaluate_churn_rate_alert,
+    evaluate_confirmed_volume_alert,
+    evaluate_data_quality_alerts,
+    evaluate_engagement_drop_alert,
+    evaluate_inactivity_alert,
+    evaluate_missing_data_alert,
+    evaluate_segment_churn_alerts,
+    severity_emoji,
+)
+
+__all__ = [
+    "SEVERITY_HIGH",
+    "SEVERITY_INFO",
+    "SEVERITY_LOW",
+    "SEVERITY_MEDIUM",
+    "Alert",
+    "alert_summary",
+    "evaluate_activity_drop_alert",
+    "evaluate_alerts",
+    "evaluate_anomaly_alerts",
+    "evaluate_churn_rate_alert",
+    "evaluate_confirmed_volume_alert",
+    "evaluate_data_quality_alerts",
+    "evaluate_engagement_drop_alert",
+    "evaluate_inactivity_alert",
+    "evaluate_missing_data_alert",
+    "evaluate_segment_churn_alerts",
+    "severity_emoji",
+]

@@ -7,8 +7,8 @@ is what makes the KPI layer traceable (PRD §30).
 
 from __future__ import annotations
 
-from dataclasses import dataclass, asdict, field
-from typing import Any, Dict, Iterable, List, Optional, Sequence
+from dataclasses import dataclass, asdict
+from typing import Any, Dict
 
 import pandas as pd
 
@@ -585,7 +585,7 @@ def dictionary_markdown() -> str:
     for row in frame.itertuples():
         lines.append(f"### `{row.field_name}`")
         lines.append("")
-        lines.append(f"| Property | Value |")
+        lines.append("| Property | Value |")
         lines.append("|---|---|")
         lines.append(f"| Dataset | `{row.dataset}` |")
         lines.append(f"| Source field | `{row.source_field}` |")

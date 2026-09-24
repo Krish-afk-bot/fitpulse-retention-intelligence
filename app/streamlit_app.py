@@ -22,7 +22,6 @@ for path in (str(PROJECT_ROOT), str(APP_DIR)):
     if path not in sys.path:
         sys.path.insert(0, path)
 
-import pandas as pd  # noqa: E402
 import streamlit as st  # noqa: E402
 
 st.set_page_config(
@@ -195,7 +194,7 @@ def _render(page_module, ctx) -> None:
     layout.filter_context(ctx.view, st.session_state.get("filters", {}))
     try:
         page_module.render(ctx)
-    except Exception as exc:  # noqa: BLE001 - the dashboard degrades, it never crashes
+    except Exception:  # noqa: BLE001 - the dashboard degrades, it never crashes
         cards.error_state(
             "This page could not be rendered",
             "Something went wrong while building this view. The rest of the dashboard is "

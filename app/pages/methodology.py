@@ -136,7 +136,7 @@ def render(ctx) -> None:
         icon_name="shield-check",
     )
     st.markdown(
-        f"""
+        """
 - The two conceptual sources (**activity** and **membership**) are cleaned and modelled
   independently. No join is performed between them.
 - Candidate keys are analysed before anything else: uniqueness, overlap and the row

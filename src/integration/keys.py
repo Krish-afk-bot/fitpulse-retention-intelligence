@@ -15,9 +15,8 @@ same people. The evidence below demonstrates the overlap is coincidental.
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List
 
-import numpy as np
 import pandas as pd
 
 from ..common.logging_utils import get_logger

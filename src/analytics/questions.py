@@ -18,11 +18,9 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional, Sequence
 
-import numpy as np
 import pandas as pd
 
 from ..common.logging_utils import get_logger
-from .retention import pct, wilson_interval
 
 logger = get_logger("analytics.questions")
 
@@ -109,7 +107,7 @@ def _answer_b(members: pd.DataFrame, comparison: pd.DataFrame) -> AnalyticalAnsw
         evidence=[
             f"Longest streak, retained: {row['retained_mean']:.2f} days",
             f"Longest streak, churned: {row['churned_mean']:.2f} days",
-            f"Streak metric definition: longest run of consecutive days with at least one recorded event",
+            "Streak metric definition: longest run of consecutive days with at least one recorded event",
         ],
         provenance="synthetic-dependent",
         caveats=[

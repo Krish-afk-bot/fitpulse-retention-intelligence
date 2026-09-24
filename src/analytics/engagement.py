@@ -9,14 +9,13 @@ absent sessions.
 
 from __future__ import annotations
 
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, Optional
 
 import numpy as np
 import pandas as pd
 
 from ..common.logging_utils import get_logger
 from ..features.engineer import SCORE_COMPONENTS
-from .retention import pct
 
 logger = get_logger("analytics.engagement")
 

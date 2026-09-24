@@ -22,7 +22,7 @@ import io
 import unicodedata
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple, Union
+from typing import Any, Dict, List, Optional, Tuple, Union
 
 import numpy as np
 import pandas as pd
@@ -31,7 +31,6 @@ from ..common.config import (
     ACTIVITY_RAW_FILENAME,
     MEMBERSHIP_RAW_FILENAME,
     RAW_DIR,
-    get_settings,
 )
 from ..common.logging_utils import get_logger
 from .schema import ACTIVITY_SOURCE, MEMBERSHIP_SOURCE, SourceSchema
@@ -547,7 +546,7 @@ def ingest_mapped_frame(
     Returns ``(loaded_source, mapping, compatibility_report)`` — the source is
     already renamed onto the contract columns the cleaning layer expects.
     """
-    from .mapping import assess_compatibility, build_loaded_source, member_key_repeatable, suggest_mapping
+    from .mapping import assess_compatibility, build_loaded_source, suggest_mapping
 
     mapping = suggest_mapping(frame, role=role, overrides=overrides)
     report = assess_compatibility(frame, mapping)

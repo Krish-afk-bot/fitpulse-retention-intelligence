@@ -63,7 +63,6 @@ def build_message(
 ) -> EmailMessage:
     """Build the multipart email (plain text + HTML)."""
     config = settings.email or {}
-    kpis_line = ""
 
     message = EmailMessage()
     message["Subject"] = subject or "FitPulse — Fitness Retention Intelligence Report"

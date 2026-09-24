@@ -8,7 +8,7 @@ report object a scheduled run would email, so what is previewed is what ships.
 from __future__ import annotations
 
 import datetime as dt
-from typing import Any, List, Optional
+from typing import Any, List
 
 import pandas as pd
 import streamlit as st

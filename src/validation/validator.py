@@ -7,7 +7,7 @@ source-specific validation reports. Every rule set below is grounded in the
 
 from __future__ import annotations
 
-from typing import Any, Dict, List, Optional, Sequence
+from typing import Any, Dict, Sequence
 
 import pandas as pd
 
@@ -17,7 +17,6 @@ from ..ingestion.schema import ACTIVITY_SOURCE, MEMBERSHIP_SOURCE
 from .results import (
     FAIL,
     PASS,
-    SEVERITY_WARNING,
     WARNING,
     CheckResult,
     ValidationReport,

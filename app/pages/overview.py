@@ -403,7 +403,6 @@ def _engagement_section(result, view) -> None:
             key="ov_bands",
         )
 
-    summary = result.analysis("trend_summary", {}) or {}
     insight_cards = [i for i in (insight_adapters.activity_trend(result), insight_adapters.engagement_summary(result)) if i]
     if insight_cards:
         cards.insight_row(insight_cards, per_row=2)

@@ -28,14 +28,13 @@ import re
 import unicodedata
 from dataclasses import dataclass, field
 from difflib import SequenceMatcher
-from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
+from typing import Any, Dict, List, Optional, Sequence, Tuple
 
 import numpy as np
 import pandas as pd
 
 from ..common.logging_utils import get_logger
 from .canonical import (
-    CANONICAL_FIELDS,
     KIND_BOOLEAN,
     KIND_CATEGORICAL,
     KIND_DATE,

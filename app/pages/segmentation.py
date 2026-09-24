@@ -14,11 +14,11 @@ import streamlit as st
 from components import cards, charts, layout, tables
 from src.analytics import engagement_score_profile, segment_metrics, segment_member_list
 from src.features import score_reference_values, segment_definition_frame
-from styles.theme import COLORS, SEGMENT_COLORS
+from styles.theme import SEGMENT_COLORS
 
 
 def render(ctx) -> None:
-    result, view = ctx.result, ctx.view
+    view = ctx.view
     members = view.members
 
     layout.page_header(

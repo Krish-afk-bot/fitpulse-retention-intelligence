@@ -15,7 +15,7 @@ absent and are documented as limitations in ``LIMITATIONS.md``.
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import Dict, List, Optional, Sequence
+from typing import Dict, List, Sequence
 
 
 @dataclass(frozen=True)

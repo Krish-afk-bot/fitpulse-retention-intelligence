@@ -26,28 +26,20 @@ from src.alerts import alert_summary  # noqa: E402
 from src.analytics import headline_kpis, retention_summary, segment_metrics  # noqa: E402
 from src.common.config import get_settings, reload_settings  # noqa: E402
 from src.ingestion import (  # noqa: E402
-    ACTIVITY_SOURCE,
-    MEMBERSHIP_SOURCE,
     ROLE_ACTIVITY,
     ROLE_MEMBERSHIP,
     ROLES,
-    SUPPORTED_SUFFIXES,
     IngestionError,
     SchemaMismatchError,
     assess_compatibility,
     build_loaded_source,
-    capability_map,
     detect_role,
-    field_options_for_role,
     frame_from_upload,
-    load_sources,
-    reader_from_upload,
     suggest_mapping,
 )
 from src.pipeline import (  # noqa: E402
     PipelineResult,
     artifacts_available,
-    empty_analyses,
     load_artifacts,
     run_pipeline,
 )
@@ -645,7 +637,6 @@ def has_data(result: Optional[PipelineResult]) -> bool:
 
 
 def provenance_line(result: PipelineResult, key: str) -> str:
-    integration = result.integration or {}
     if key == "synthetic":
         return (
             "Synthetic-dependent: consistency and streak metrics come from the documented "

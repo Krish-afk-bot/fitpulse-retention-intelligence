@@ -29,7 +29,6 @@ from src.ingestion import (
     ROLE_MEMBERSHIP,
     SUPPORTED_SUFFIXES,
     assess_compatibility,
-    capability_frame,
     field_options_for_role,
     role_label,
     suggest_mapping,
@@ -138,14 +137,14 @@ def _capability_matrix(capabilities: List[Dict[str, Any]]) -> None:
     ]
     left, right = st.columns(2)
     with left:
-        st.markdown(f'<p class="fp-eyebrow">Available</p>', unsafe_allow_html=True)
+        st.markdown('<p class="fp-eyebrow">Available</p>', unsafe_allow_html=True)
         layout.bullet_list(
             [f"{item.get('label')}" for item in available] or ["Nothing yet — load a dataset."],
             icon_name="circle-check",
             color=COLORS["success"],
         )
     with right:
-        st.markdown(f'<p class="fp-eyebrow">Unavailable</p>', unsafe_allow_html=True)
+        st.markdown('<p class="fp-eyebrow">Unavailable</p>', unsafe_allow_html=True)
         layout.bullet_list(
             [
                 f"**{item.get('label')}** — {item.get('reason') or 'not supported by this data'}"

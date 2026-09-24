@@ -21,7 +21,7 @@ Design rules encoded below:
 
 from __future__ import annotations
 
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List
 
 import plotly.graph_objects as go
 import plotly.io as pio
@@ -183,6 +183,8 @@ PULSE_PATTERN = (
 # ---------------------------------------------------------------------------
 # CSS custom properties
 # ---------------------------------------------------------------------------
+
+
 def _css_vars() -> str:
     lines: List[str] = []
     for name, value in COLORS.items():

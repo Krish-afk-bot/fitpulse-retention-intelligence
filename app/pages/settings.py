@@ -10,12 +10,10 @@ from __future__ import annotations
 
 from typing import Any, Dict
 
-import pandas as pd
 import streamlit as st
 
 from components import cards, layout, tables
 from src.features import score_reference_values, segment_definition_frame
-from styles.theme import COLORS
 
 import state
 

@@ -21,7 +21,6 @@ import sqlite3
 from dataclasses import dataclass
 from typing import Any, Dict, List, Optional, Sequence, Tuple
 
-import numpy as np
 import pandas as pd
 
 from ..common.logging_utils import get_logger

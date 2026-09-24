@@ -65,7 +65,7 @@ def render_global_filters(result, view=None) -> None:
         age_groups = _options(result, "member_features", "age_group")
 
         st.markdown(
-            f'<div class="fp-eyebrow" style="margin-top:.4rem;">Members</div>', unsafe_allow_html=True
+            '<div class="fp-eyebrow" style="margin-top:.4rem;">Members</div>', unsafe_allow_html=True
         )
         filters["membership_types"] = st.multiselect(
             "Membership type",
@@ -96,7 +96,7 @@ def render_global_filters(result, view=None) -> None:
                 date_bounds = (dates.min().date(), dates.max().date())
 
         st.markdown(
-            f'<div class="fp-eyebrow" style="margin-top:.8rem;">Activity</div>', unsafe_allow_html=True
+            '<div class="fp-eyebrow" style="margin-top:.8rem;">Activity</div>', unsafe_allow_html=True
         )
         if date_bounds:
             selection = st.date_input(

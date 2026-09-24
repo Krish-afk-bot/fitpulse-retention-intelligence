@@ -8,7 +8,7 @@ status is expressed as text so it survives greyscale and screen readers.
 
 from __future__ import annotations
 
-from typing import Any, Dict, Optional, Sequence
+from typing import Dict, Optional, Sequence
 
 import pandas as pd
 import streamlit as st
@@ -56,7 +56,7 @@ COLUMN_LABELS: Dict[str, str] = {
     "share_pct": "% of total",
     "dimension_value": "group",
     "avg_visits_per_month": "avg visits/mo",
-    "avg_workout_duration_min": "avg duration (min)",
+    "avg_workout_duration_min": "avg session duration (min)",
     "avg_recency_days": "avg recency (days)",
     "avg_longest_streak": "avg longest streak (days)",
     "avg_average_streak": "avg streak (days)",
@@ -76,7 +76,6 @@ COLUMN_LABELS: Dict[str, str] = {
     "is_churned": "churned",
     "avg_avg_workout_duration_min": "avg session duration (min)",
     "avg_avg_calories_burned": "avg calories",
-    "avg_workout_duration_min": "avg session duration (min)",
     "churn_ci_low": "churn CI low",
     "churn_ci_high": "churn CI high",
     "low_confidence": "low confidence",

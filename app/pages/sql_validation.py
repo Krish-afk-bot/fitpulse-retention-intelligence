@@ -8,8 +8,6 @@ query. SQL itself is kept inside expanders so it never dominates the page.
 
 from __future__ import annotations
 
-from typing import Optional
-
 import pandas as pd
 import streamlit as st
 
@@ -181,7 +179,7 @@ def _verify_card(row: pd.Series) -> None:
     status = str(row.get("status", "")).upper()
     color = STATUS_COLORS.get(status, COLORS["neutral"])
     passed = status == "PASS"
-    marker = "circle-check" if passed else "circle-x"
+    marker = "circle-check" if passed else "circle-x"  # noqa: F841
     python_value, python_unit = cards.format_value(row.get("python_value"), str(row.get("unit", "")))
     sql_value, sql_unit = cards.format_value(row.get("sql_value"), str(row.get("unit", "")))
     difference = row.get("difference")

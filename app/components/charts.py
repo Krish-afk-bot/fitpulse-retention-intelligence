@@ -11,7 +11,7 @@ No chart is decorative: each one answers a question posed by its section header.
 
 from __future__ import annotations
 
-from typing import Any, Dict, List, Optional, Sequence
+from typing import Any, Dict, Optional, Sequence
 
 import pandas as pd
 import plotly.express as px
@@ -414,7 +414,7 @@ def funnel_chart(
         return empty_chart("Funnel unavailable.", height=height)
     # An intentional progression from brand green through neutral to warm, not a
     # rainbow: a funnel's stages are ordered stages, not unrelated categories.
-    palette = [PRIMARY, ACCENT, SECONDARY, WARNING, DANGER, NEUTRAL]
+    palette = [PRIMARY, ACCENT, SECONDARY, ACCENT, DANGER, NEUTRAL]
     figure = go.Figure(
         go.Funnel(
             y=frame["stage"],

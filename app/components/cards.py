@@ -12,7 +12,7 @@ users and in greyscale print.
 
 from __future__ import annotations
 
-from dataclasses import dataclass, field, replace
+from dataclasses import dataclass, replace
 from typing import Any, Iterable, List, Optional, Sequence
 
 import pandas as pd
@@ -58,11 +58,11 @@ def _delta_html(delta: float, label: str, suffix: str = "%") -> str:
     if delta is None or pd.isna(delta):
         return ""
     if delta > 0.05:
-        css, glyph, arrow = "fp-delta--up", "arrow-up-right", "up"
+        css, glyph = "fp-delta--up", "arrow-up-right"
     elif delta < -0.05:
-        css, glyph, arrow = "fp-delta--down", "arrow-down-right", "down"
+        css, glyph = "fp-delta--down", "arrow-down-right"
     else:
-        css, glyph, arrow = "fp-delta--flat", "minus", "flat"
+        css, glyph = "fp-delta--flat", "minus"
     icon = icons.icon(glyph, size=13, stroke_width=2.2, extra_style="vertical-align:-2px;")
     text = f"{abs(delta):,.1f}{suffix}"
     return (

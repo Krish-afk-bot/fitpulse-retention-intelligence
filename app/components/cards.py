@@ -289,7 +289,7 @@ def kpi_row(cards: Sequence[Kpi], per_row: int = 4, emphasis: Optional[str] = No
         ]
     per_row = max(1, min(per_row, len(items)))
     for start in range(0, len(items), per_row):
-        row = items[start : start + per_row]
+        row = items[start:start + per_row]
         for column, card in zip(st.columns(len(row)), row):
             with column:
                 kpi_card(card)
@@ -343,7 +343,7 @@ def insight_row(insights: Sequence[Insight], per_row: int = 2) -> None:
         return
     per_row = max(1, min(per_row, len(items)))
     for start in range(0, len(items), per_row):
-        row = items[start : start + per_row]
+        row = items[start:start + per_row]
         for column, item in zip(st.columns(len(row)), row):
             with column:
                 insight_card(item)

@@ -159,7 +159,7 @@ def _tint(color: str, alpha: float = 0.14) -> str:
     if len(value) != 6:
         return "rgba(124,135,129,0.13)"
     try:
-        red, green, blue = (int(value[i : i + 2], 16) for i in (0, 2, 4))
+        red, green, blue = (int(value[i:i + 2], 16) for i in (0, 2, 4))
     except ValueError:
         return "rgba(124,135,129,0.13)"
     return f"rgba({red}, {green}, {blue}, {alpha})"

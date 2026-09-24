@@ -67,7 +67,7 @@ def _thresholds(snapshot: Dict[str, Any]) -> None:
         "missing_data_pct": "Missing data (%)",
     }
     items = list(thresholds.items())
-    for chunk in [items[index : index + 4] for index in range(0, len(items), 4)]:
+    for chunk in [items[index:index + 4] for index in range(0, len(items), 4)]:
         columns = st.columns(4)
         for column, (key, value) in zip(columns, chunk):
             with column:

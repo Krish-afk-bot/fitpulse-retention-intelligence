@@ -631,7 +631,7 @@ def _rgba(hex_colour: str, alpha: float) -> str:
     value = hex_colour.lstrip("#")
     if len(value) != 6:
         return "rgba(27,174,112,0.15)"
-    red, green, blue = (int(value[i : i + 2], 16) for i in (0, 2, 4))
+    red, green, blue = (int(value[i:i + 2], 16) for i in (0, 2, 4))
     return f"rgba({red},{green},{blue},{alpha})"
 
 

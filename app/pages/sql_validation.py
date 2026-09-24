@@ -168,7 +168,7 @@ def _verification_cards(crosscheck) -> None:
         icon_name="circle-check",
     )
     frame = crosscheck.head(VERIFY_CARDS)
-    rows = [frame.iloc[i : i + 2] for i in range(0, len(frame), 2)]
+    rows = [frame.iloc[i:i + 2] for i in range(0, len(frame), 2)]
     for row in rows:
         for column, (_, item) in zip(st.columns(2), row.iterrows()):
             with column:

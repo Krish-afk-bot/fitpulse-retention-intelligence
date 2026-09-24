@@ -248,7 +248,8 @@ def ensure_data(allow_autorun: bool = True) -> Tuple[Optional[PipelineResult], O
     """Return the active pipeline result and an optional message for the UI.
 
     Order of preference: an in-session run (uploaded files) → artifacts on disk
-    → (optionally) nothing, so the caller can render an empty state.
+    → auto-run on the bundled reference CSVs (Streamlit Cloud / first launch)
+    → nothing, so the caller can render an empty state.
     """
     if st.session_state.get("pipeline_result") is not None:
         return st.session_state["pipeline_result"], st.session_state.get("data_origin")
@@ -263,6 +264,23 @@ def ensure_data(allow_autorun: bool = True) -> Tuple[Optional[PipelineResult], O
                 f"artifacts:{fingerprint}",
             )
             return result, st.session_state["data_origin"]
+
+    # No artifacts on disk (e.g. Streamlit Cloud fresh deploy).
+    # Auto-run on the bundled reference CSVs so the dashboard is never blank.
+    if allow_autorun:
+        from src.common.config import RAW_DIR, ACTIVITY_RAW_FILENAME, MEMBERSHIP_RAW_FILENAME
+        activity_csv = RAW_DIR / ACTIVITY_RAW_FILENAME
+        membership_csv = RAW_DIR / MEMBERSHIP_RAW_FILENAME
+        if activity_csv.exists() and membership_csv.exists():
+            if st.session_state.get("_autorun_attempted"):
+                return None, None  # already tried, don't loop
+            st.session_state["_autorun_attempted"] = True
+            with st.spinner("Running pipeline on bundled datasets — this takes about 30 seconds on first load…"):
+                return run_pipeline_in_session(
+                    write_artifacts=False,
+                    build_database=False,
+                )
+
     return None, None
 
 

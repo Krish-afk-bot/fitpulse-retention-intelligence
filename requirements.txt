@@ -5,9 +5,13 @@ pandas>=2.1
 numpy>=1.26
 streamlit>=1.32
 plotly>=5.20
-pytest>=8.0
+scipy>=1.12
 python-dotenv>=1.0
 requests>=2.31
+openpyxl>=3.1
+xlrd>=2.0
 
-# Optional: report delivery / CI helpers
-# (SQLite support ships with the Python standard library)
+# Dev / CI only
+pytest>=8.0
+
+# SQLite support ships with the Python standard library

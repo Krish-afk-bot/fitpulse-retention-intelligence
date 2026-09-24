@@ -109,14 +109,14 @@ range `13.6 – 80.2`
 
 ---
 
-## 📁 Datasets
+##  Datasets
 
 | Source | Records | Columns | License | Key Fields |
 |--------|---------|---------|---------|------------|
 | [Daily Gym Attendance & Workout Activity](https://www.kaggle.com/datasets/zahranusratt/daily-gym-attendance-and-workout-activity-dataset) | 2,600 sessions | 10 | Kaggle Terms | `visit_date`, `workout_type`, `duration_min`, `attendance_status` |
 | [Churn Prediction Gym Members](https://www.kaggle.com/datasets/hassaan2580/churn-prediction-gym-members-dataset) | 150 members | 15 | CC0 Public Domain | `Visits_Per_Month`, `Churn`, `Membership_Type`, `Avg_Workout_Duration_Min` |
 
-> ⚠️ **Important integration caveat:** The activity source has no repeatable member identifier — its `member_id` is a row sequence number. Member-level streaks and per-member event histories therefore require the documented synthetic calendar integration layer.
+>  **Important integration caveat:** The activity source has no repeatable member identifier — its `member_id` is a row sequence number. Member-level streaks and per-member event histories therefore require the documented synthetic calendar integration layer.
 
 ### Source Schema
 
@@ -137,7 +137,7 @@ attendance_status CATEGORICAL               Favorite_Exercise CATEGORICAL
 
 ---
 
-## 🏗️ Data Pipeline Architecture
+##  Data Pipeline Architecture
 
 The pipeline runs in 8 sequential stages, each with its own artefact output and audit trail:
 
@@ -177,7 +177,7 @@ The pipeline runs in 8 sequential stages, each with its own artefact output and 
 
 ---
 
-## ⚙️ Engagement Score Algorithm
+## Engagement Score Algorithm
 
 Each member receives a composite score **0 – 100** built from five configurable dimensions:
 
@@ -221,7 +221,7 @@ Score:   0 ────────── 25 ─────────── 4
 
 ---
 
-## 📉 Retention & Churn Analysis
+##  Retention & Churn Analysis
 
 ### Overall Breakdown
 
@@ -268,11 +268,11 @@ streak        ──────────────────────
               Cohen's d = −1.26 (LARGE) │ synthetic-dependent
 ```
 
-> ⚠️ Streak metrics depend on synthetic date reconstruction — see Methodology.
+>  Streak metrics depend on synthetic date reconstruction — see Methodology.
 
 ---
 
-## 👥 Behavioural Segmentation
+##  Behavioural Segmentation
 
 Members are grouped into four engagement bands:
 
@@ -302,7 +302,7 @@ D - Dormant         │███████████████████
 
 ---
 
-## 🔻 Engagement Funnel
+##  Engagement Funnel
 
 The attendance funnel reveals where session volume is lost:
 
@@ -325,7 +325,7 @@ Stage                           Records    Retention   Drop-off
 
 ---
 
-## 📈 Platform Trend Analysis
+##  Platform Trend Analysis
 
 Monthly session volume over the observed period (2024):
 
@@ -365,7 +365,7 @@ Sessions
 
 ---
 
-## 📐 Statistical Evidence
+##  Statistical Evidence
 
 All significance tests use **Mann-Whitney U** (non-parametric) with **Bonferroni correction** at α = 0.05.
 
@@ -398,7 +398,7 @@ Yearly     33       6      18.2%   [ 7.3% – 35.5%]
 
 ---
 
-## 🚨 Alerts & Monitoring
+##  Alerts & Monitoring
 
 The alert engine evaluates 5 configurable rules on every pipeline run. Current state:
 
@@ -444,19 +444,19 @@ Categories:
 
 ---
 
-## 🖥️ Dashboard Preview
+##  Dashboard Preview
 
 The Streamlit app has 11 pages, all driven by pre-computed artefacts (no metric recomputation in the UI layer):
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│  🏠 Overview       📊 Engagement    📉 Retention    👥 Segments         │
+│   Overview          Engagement        Retention        Segments         │
 │  ─────────────     ──────────────   ─────────────   ──────────────      │
 │  KPI summary       Score dist.      Rate + CI       Band profiles       │
 │  Retention gauge   Trend chart      By tier bar     Churn per seg.      │
 │  Alert banner      Heatmap          Scatter plot     Descriptions       │
 ├─────────────────────────────────────────────────────────────────────────┤
-│  📂 Data Sources   🔍 Data Quality  ✔ SQL Valid.    🚨 Risk & Alerts    │
+│    Data Sources    Data Quality       SQL Valid.     Risk & Alerts    │
 │  ─────────────     ──────────────   ─────────────   ──────────────      │
 │  Role detection    138 checks       Python↔SQL      Open alerts by sev. │
 │  Column mapping    Profile stats    Cross-check tbl  Affected counts    │
@@ -478,7 +478,7 @@ streamlit run app/streamlit_app.py
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 fitpulse-retention-intelligence/
@@ -548,7 +548,7 @@ fitpulse-retention-intelligence/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone & install
 
@@ -594,7 +594,7 @@ pytest tests/ -v
 
 ---
 
-## 📖 Methodology & Limitations
+##  Methodology & Limitations
 
 ### What is real vs synthetic
 
@@ -623,7 +623,7 @@ The five dimension weights (`frequency=0.30, consistency=0.25, streak=0.20, rece
 
 ---
 
-## 📜 License
+##  License
 
 MIT — see [LICENSE](LICENSE).  
 Dataset licenses: Activity dataset per Kaggle terms · Membership dataset CC0 Public Domain.
@@ -634,6 +634,6 @@ Dataset licenses: Activity dataset per Kaggle terms · Membership dataset CC0 Pu
 
 **FitPulse** — built with Python · Streamlit · SQLite · Plotly · pandas · scipy
 
-*56 commits · 12 development phases · ingestion → validation → cleaning → integration → features → analytics → SQL → alerts → reports → dashboard*
+* 12 development phases · ingestion → validation → cleaning → integration → features → analytics → SQL → alerts → reports → dashboard*
 
 </div>
